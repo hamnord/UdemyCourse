@@ -1,4 +1,4 @@
-package com.example.course;
+package JavaExercises;
 
 public class BasicExercises {
 
