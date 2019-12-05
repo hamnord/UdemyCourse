@@ -21,10 +21,11 @@ public class BasicExercises {
     // int == 32 bit
     int myMinIntValue = Integer.MIN_VALUE;
     int myMaxIntValue = Integer.MAX_VALUE;
+    int myMaxIntTest = 2147483647;
       System.out.println(" Integer Min: " + myMinIntValue + "\n Integer Max: " + myMaxIntValue);
       System.out.println(" Busted max value: " + (myMaxIntValue + 1));
       System.out.println(" Busted min value: " + (myMinIntValue - 1));
-    int myMaxIntTest = 2147483647;
+
 
     // byte == 8 bit
     byte myMinByteValue = Byte.MIN_VALUE;
@@ -42,9 +43,9 @@ public class BasicExercises {
     long myLongValue = 100L;
     long myMinLongValue = Long.MIN_VALUE;
     long myMaxLongValue = Long.MAX_VALUE;
+    long bigLongLiteralValue = 2147483647234L;
       System.out.println(" Long Min: " + myMinLongValue);
       System.out.println(" Long Max: " + myMaxLongValue);
-    long bigLongLiteralValue = 2147483647234L;
       System.out.println(bigLongLiteralValue);
 
     System.out.println("Casting exercise");
