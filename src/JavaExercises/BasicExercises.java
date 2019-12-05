@@ -4,7 +4,7 @@ public class BasicExercises {
 
   public static void main (String[] args){
 
-    /*
+
     System.out.println(" basic int exercise ");
     int myFirstNumber = (10 + 5) + (2 * 10);
     int mySecondNumber = 12;
@@ -13,7 +13,6 @@ public class BasicExercises {
     int myLastOne = 1000 - myTotal;
     System.out.println(" My Total: " + myTotal);
     System.out.println(" My Last one: " + myLastOne);*/
-
 
     System.out.println(" \n basic Primitive Types exercise");
 
@@ -63,14 +62,12 @@ public class BasicExercises {
     long sumWithLong = 50000L + 10L * (myByte + myShort + myInt);
     System.out.println("Sum: " + sumWithLong);
 
-
     System.out.println("Float and Double Exercise");
 
     float myMinFloatValue = Float.MIN_VALUE;
     float myMaxFloatValue = Float.MAX_VALUE;
     System.out.println(" float min: " + myMinFloatValue);
     System.out.println(" float Max: " + myMaxFloatValue);
-
 
     double myMinDoubleValue = Double.MIN_VALUE;
     double myMaxDoubleValue = Double.MAX_VALUE;
