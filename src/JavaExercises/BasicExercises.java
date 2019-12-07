@@ -50,7 +50,7 @@ public class BasicExercises {
 
     System.out.println("Casting exercise");
 
-      int myTotal = (myMinIntValue / 2);
+    //  int myTotal = (myMinIntValue / 2);
       byte myNewByteValue = (byte) (myMinByteValue / 2);
       short myNewShortValue = (short) (myMinShortValue / 2);
 
