@@ -52,5 +52,38 @@ public class IfExercise {
     if (!sumCorrect) {
       System.out.println(" got som remainder");
     }
+
+    // keyWords and Expressions
+    double km = (100 * 1.609344);
+    int hs = 50;
+
+    if( hs == 50) {
+      System.out.println("this is a expression");
+    }
+
+    boolean gameOver = true;
+    int score = 3000;
+    int levelCompleted = 5;
+    int bonus = 100;
+
+    if (score < 5000 && score > 1000) {
+      System.out.println(" biggeer than 1000 and lesser than 5000");
+    } else if
+    (score < 1000 ) {
+      System.out.println(" less 1000");
+    } else
+      { System.out.println(" else ");
+      }
+
+    // scope challenge
+
+      System.out.println("outside of scope: " + score + levelCompleted + bonus);
+
+    if(gameOver){
+      score = 10000;
+      levelCompleted = 8;
+      bonus = 200;
+      System.out.println("Inside Scope: " + score + levelCompleted + bonus);
+    }
   }
 }
