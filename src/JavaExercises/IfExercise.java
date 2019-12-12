@@ -1,7 +1,7 @@
 package JavaExercises;
 
 public class IfExercise {
-  public static void main (String [] args) {
+  public static void main(String[] args) {
 
     boolean isAlien = false;
     if (isAlien == false) {
@@ -10,13 +10,13 @@ public class IfExercise {
     }
 
     int topScore = 80;
-    if(topScore < 100) {
+    if (topScore < 100) {
       System.out.println(" you got the highScore!");
     }
 
     int secondTopScore = 81;
-    if ( (topScore > secondTopScore) && (topScore < 100) ) {
-      System.out.println( " Greater than second top score and less than 100");
+    if ((topScore > secondTopScore) && (topScore < 100)) {
+      System.out.println(" Greater than second top score and less than 100");
     }
 
     if ((topScore > 90) || (secondTopScore <= 90)) {
@@ -57,7 +57,7 @@ public class IfExercise {
     double km = (100 * 1.609344);
     int hs = 50;
 
-    if( hs == 50) {
+    if (hs == 50) {
       System.out.println("this is a expression");
     }
 
@@ -69,21 +69,30 @@ public class IfExercise {
     if (score < 5000 && score > 1000) {
       System.out.println(" biggeer than 1000 and lesser than 5000");
     } else if
-    (score < 1000 ) {
+    (score < 1000) {
       System.out.println(" less 1000");
-    } else
-      { System.out.println(" else ");
-      }
+    } else {
+      System.out.println(" else ");
+    }
 
     // scope challenge
 
-      System.out.println("outside of scope: " + score + levelCompleted + bonus);
+    if (gameOver) {
+      int finalScore = score + (levelCompleted * bonus);
+      finalScore += 1000;
+      System.out.println("finalscore 1 : " + finalScore);
 
-    if(gameOver){
-      score = 10000;
-      levelCompleted = 8;
-      bonus = 200;
-      System.out.println("Inside Scope: " + score + levelCompleted + bonus);
     }
+
+    score = 10000;
+    levelCompleted = 8;
+    bonus = 200;
+
+    if (gameOver) {
+      int finalScore = score + (levelCompleted * bonus);
+      System.out.println("finalScore 2 : " + finalScore);
+    }
+
   }
 }
+
