@@ -6,6 +6,7 @@ public class MethodExercise {
 
     caculateScore(true, 800, 5, 100);
     caculateScore(true, 10000, 8, 200);
+    negativeScore(true, 0);
   }
 
 
@@ -20,6 +21,19 @@ public class MethodExercise {
     }
 
     return -1;
+  }
+
+  public static int negativeScore(boolean remove, int negativeFinal) {
+
+    if (remove) {
+      negativeFinal -= caculateScore(true,800,5,100);
+
+      System.out.println("negative score: " + negativeFinal);
+      System.out.println("just for fun ¯\\_(ツ)_/¯ ");
+    }
+
+    return -1;
+
   }
 
 }
