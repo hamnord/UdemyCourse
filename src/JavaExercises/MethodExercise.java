@@ -48,11 +48,11 @@ public class MethodExercise {
       displayHighScorePosition("Baba","1st Place!");
       System.out.println("Congratulations! you're the Winner! \n"); }
 
-    else if (playerScore >= 500 && playerScore < 1000) {
+    else if (playerScore >= 500) {
       displayHighScorePosition("Bibi","2nd Place!");
       System.out.println(" Too bad! It was so Close! \n "); }
 
-    else if (playerScore >= 100 && playerScore < 500) {
+    else if (playerScore >= 100) {
       displayHighScorePosition("Dodo","3rd Place!");
       System.out.println(" Well you didn't lose \n "); }
 
