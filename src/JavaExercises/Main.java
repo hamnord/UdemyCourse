@@ -3,7 +3,8 @@ package JavaExercises;
 public class Main {
   public static void main(String[] args) {
    // SpeedConverterExercise.printConversion(10);
-    MegabyteConverter.printMegaBytesAndKiloBytes(5000);
+    //MegabyteConverter.printMegaBytesAndKiloBytes(5000);
+    BarkingDogExercise.shouldWakeUp(true,-1);
   }
 
 }
