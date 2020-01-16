@@ -7,7 +7,9 @@ public class Main {
     // BarkingDogExercise.shouldWakeUp(true,-1);
     // LeapYearCalculator.isLeapYear(1924);
     // DecimalComparator.areEqualByThreeDecimalPlaces(-3.123,3.123);
-    EqualSumChecker.hasEqualSum(1,-1,0);
+    // EqualSumChecker.hasEqualSum(1,-1,0);
+    // TeenNumberChecker.hasTeen(22, 23, 34);
+    TeenNumberChecker.isTeen(22);
 
   }
 
