@@ -9,7 +9,9 @@ public class Main {
     // DecimalComparator.areEqualByThreeDecimalPlaces(-3.123,3.123);
     // EqualSumChecker.hasEqualSum(1,-1,0);
     // TeenNumberChecker.hasTeen(22, 23, 34);
-    TeenNumberChecker.isTeen(22);
+    // TeenNumberChecker.isTeen(22);
+    // System.out.println(SecondsAndMinutes.getDurationString(200, 1));
+    // System.out.println(SecondsAndMinutes.getDurationString( 3700));
 
   }
 
