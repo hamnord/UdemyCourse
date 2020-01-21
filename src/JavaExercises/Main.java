@@ -12,7 +12,8 @@ public class Main {
     // TeenNumberChecker.isTeen(22);
     // System.out.println(SecondsAndMinutes.getDurationString(200, 1));
     // System.out.println(SecondsAndMinutes.getDurationString( 3700));
-
+    // AreaCalculator.area(-1);
+    AreaCalculator.area(5.0,4.0);
   }
 
 }
