@@ -15,7 +15,8 @@ public class Main {
     // AreaCalculator.area(-1);
     // AreaCalculator.area(5.0,4.0);
     // MinutesToYearDaysCalculator.printYearsAndDays(561600);
-    IntEqualityPrinter.printEqual(-1,-2,-3);
+    // IntEqualityPrinter.printEqual(-1,-2,-3);
+    // PlayingCat.isCatPlaying(true,10);
   }
 
 }
