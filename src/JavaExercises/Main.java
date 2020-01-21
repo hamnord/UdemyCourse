@@ -13,7 +13,8 @@ public class Main {
     // System.out.println(SecondsAndMinutes.getDurationString(200, 1));
     // System.out.println(SecondsAndMinutes.getDurationString( 3700));
     // AreaCalculator.area(-1);
-    AreaCalculator.area(5.0,4.0);
+    // AreaCalculator.area(5.0,4.0);
+    // MinutesToYearDaysCalculator.printYearsAndDays(561600);
   }
 
 }
