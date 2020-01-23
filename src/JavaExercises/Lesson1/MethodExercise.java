@@ -1,4 +1,4 @@
-package JavaExercises;
+package JavaExercises.Lesson1;
 
 public class MethodExercise {
   public static void main(String[] args) {
