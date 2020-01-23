@@ -4,10 +4,6 @@
 
 	All my exercises and finished challenges
 
-	* IfExercise
-	* MethodExercises
-	* BarkingDogExercise
-	* LeapYearCalcutator
-	* SpeedConverterExercise
-	* MegaByteConverter    
+	* Lesson1
+	* Lesson2    
 * Test
