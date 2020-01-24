@@ -1,9 +1,5 @@
 package JavaExercises;
 
-import JavaExercises.Lesson2.DayOfTheWeek;
-import JavaExercises.Lesson2.NumberAsWord;
-import JavaExercises.Lesson2.NumberOfDaysInMonth;
-
 public class Main {
   public static void main(String[] args) {
     // SpeedConverterExercise.printConversion(10);
@@ -25,6 +21,6 @@ public class Main {
     // NumberAsWord.printNumberInWord(-1);
     // NumberOfDaysInMonth.isLeapYear(2000);
     // NumberOfDaysInMonth.getDaysInMonth(13,2020);
-  }
 
+  }
 }
