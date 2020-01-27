@@ -1,5 +1,7 @@
 package JavaExercises;
 
+import JavaExercises.Lesson2.SumOdd;
+
 public class Main {
   public static void main(String[] args) {
     // SpeedConverterExercise.printConversion(10);
@@ -21,6 +23,6 @@ public class Main {
     // NumberAsWord.printNumberInWord(-1);
     // NumberOfDaysInMonth.isLeapYear(2000);
     // NumberOfDaysInMonth.getDaysInMonth(13,2020);
-
+    // SumOdd.sumOdd(10,5);
   }
 }
