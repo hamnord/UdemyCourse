@@ -13,7 +13,6 @@ public class SumOdd {
     return false;
 }
 
-
   public static int sumOdd ( int start, int end){
     int sum = 0;
 
