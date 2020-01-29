@@ -3,15 +3,12 @@ package JavaExercises.Lesson2;
 public class SumOdd {
 
   public static boolean isOdd(int number) {
+    //  System.out.println( number);
     if (number < 0 ) {
       return false;
     }
-    else if ( number % 2 != 0) {
-    //  System.out.println( number);
-      return true;
-    }
-    return false;
-}
+    else return number % 2 != 0;
+  }
 
   public static int sumOdd ( int start, int end){
     int sum = 0;
