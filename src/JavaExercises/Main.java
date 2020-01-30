@@ -1,5 +1,6 @@
 package JavaExercises;
 
+import JavaExercises.Lesson2.DigitSumChallenge;
 import JavaExercises.Lesson2.EvenNumber;
 import JavaExercises.Lesson2.SumOdd;
 
@@ -26,7 +27,8 @@ public class Main {
     // NumberOfDaysInMonth.getDaysInMonth(13,2020);
     // SumOdd.sumOdd(10,5);
     // EvenNumber.printEven(1,20);
-   // EvenNumber.sumEven(1,5);
-    EvenNumber.sumEvenWhile(1,50);
+    // EvenNumber.sumEven(1,5);
+    //EvenNumber.sumEvenWhile(1,50);
+    DigitSumChallenge.sumDigits(125);
   }
 }
