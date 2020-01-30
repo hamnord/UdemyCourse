@@ -1,9 +1,6 @@
 package JavaExercises;
 
-import JavaExercises.Lesson2.DigitSumChallenge;
-import JavaExercises.Lesson2.EvenNumber;
-import JavaExercises.Lesson2.NumberPalindrome;
-import JavaExercises.Lesson2.SumOdd;
+import JavaExercises.Lesson2.*;
 
 public class Main {
   public static void main(String[] args) {
@@ -31,7 +28,7 @@ public class Main {
     // EvenNumber.sumEven(1,5);
     //EvenNumber.sumEvenWhile(1,50);
     // DigitSumChallenge.sumDigits(125);
-
-    NumberPalindrome.isPalindrome(702);
+    //NumberPalindrome.isPalindrome(702);
+    // FirstAndLastDigitSum.sumFirstAndLastDigit(102);
   }
 }
