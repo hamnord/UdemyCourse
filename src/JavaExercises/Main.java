@@ -2,6 +2,7 @@ package JavaExercises;
 
 import JavaExercises.Lesson2.DigitSumChallenge;
 import JavaExercises.Lesson2.EvenNumber;
+import JavaExercises.Lesson2.NumberPalindrome;
 import JavaExercises.Lesson2.SumOdd;
 
 public class Main {
@@ -29,6 +30,8 @@ public class Main {
     // EvenNumber.printEven(1,20);
     // EvenNumber.sumEven(1,5);
     //EvenNumber.sumEvenWhile(1,50);
-    DigitSumChallenge.sumDigits(125);
+    // DigitSumChallenge.sumDigits(125);
+
+    NumberPalindrome.isPalindrome(702);
   }
 }
