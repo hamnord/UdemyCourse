@@ -14,7 +14,7 @@ public class FirstAndLastDigitSum {
 
     }
     if (number < 0){
-      System.out.println("nan");
+      System.out.println("Invalid Value");
       return -1;}
 
     else {
