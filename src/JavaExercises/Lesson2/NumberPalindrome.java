@@ -12,15 +12,15 @@ public class NumberPalindrome {
       reverseDigit += lastDigit;
       palindrome /= 10;
     }
-    System.out.println("Reverse "+ reverseDigit);
-    System.out.println("Num " + number);
+    System.out.println("Number in Reverse: "+ reverseDigit);
+    System.out.println("Number: " + number);
 
     if (reverseDigit == number){
     System.out.println("Its a Palindrome: " + number);
     return true;
 
     }else {
-      System.out.println("Its Not a PalinDrome: " + number);
+      System.out.println("Its Not a Palindrome: " + number);
       return false; }
   }
 }
