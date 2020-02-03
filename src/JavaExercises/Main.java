@@ -30,5 +30,6 @@ public class Main {
     // DigitSumChallenge.sumDigits(125);
     //NumberPalindrome.isPalindrome(702);
     // FirstAndLastDigitSum.sumFirstAndLastDigit(102);
+    EvenDigitSum.getEvenDigitSum(246245);
   }
 }
