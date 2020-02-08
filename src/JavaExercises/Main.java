@@ -32,5 +32,7 @@ public class Main {
     // FirstAndLastDigitSum.sumFirstAndLastDigit(102);
     // EvenDigitSum.getEvenDigitSum(246245);
     // SharedDigit.hasSharedDigit(25, 24);
+    LastDigitChecker.hasSameLastDigit(101,22,1);
+    //LastDigitChecker.isValid();
   }
 }
