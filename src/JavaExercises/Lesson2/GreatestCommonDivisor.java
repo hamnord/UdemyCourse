@@ -16,4 +16,24 @@ public class GreatestCommonDivisor {
     System.out.println("CommonDivisor: " + common);
     return common;
   }
+
+  public static int commonDivisorWhile (int i, int j){
+    if (i < 10 || j < 10){
+      System.out.println("Invalid Value");
+      return -1;
+    }
+
+    int common = 0;
+    int y = 1;
+
+    while (y <= i){
+      y++;
+      if (i % y == 0 && j % y == 0){
+        common = y;
+      }
+
+    }
+    System.out.println("CommonDivisor: " + common);
+    return common;
+  }
 }
