@@ -26,15 +26,16 @@ public class Main {
     // SumOdd.sumOdd(10,5);
     // EvenNumber.printEven(1,20);
     // EvenNumber.sumEven(1,5);
-    //EvenNumber.sumEvenWhile(1,50);
+    // EvenNumber.sumEvenWhile(1,50);
     // DigitSumChallenge.sumDigits(125);
-    //NumberPalindrome.isPalindrome(702);
+    // NumberPalindrome.isPalindrome(702);
     // FirstAndLastDigitSum.sumFirstAndLastDigit(102);
     // EvenDigitSum.getEvenDigitSum(246245);
     // SharedDigit.hasSharedDigit(25, 24);
     // LastDigitChecker.hasSameLastDigit(101,22,1);
-    //LastDigitChecker.isValid();
-    //GreatestCommonDivisor.getGreatestCommonDivisor(25,15);
-    GreatestCommonDivisor.commonDivisorWhile(25,15);
+    // LastDigitChecker.isValid();
+    // GreatestCommonDivisor.getGreatestCommonDivisor(25,15);
+    // GreatestCommonDivisor.commonDivisorWhile(25,15);
+    AllFactors.printFactors(10);
   }
 }
