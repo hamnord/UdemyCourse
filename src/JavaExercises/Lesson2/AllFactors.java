@@ -7,12 +7,12 @@ public class AllFactors {
       System.out.println("Invalid Value");
     }
 
-    int factor;
+    int factor = 0;
 
     for (int i = 1; i <= number; i++){
       if ( number % i == 0){
         factor = i;
-        System.out.println("Factor: " + factor + " by " + number) ;
+        System.out.println("Factor: " + factor ) ;
       }
     }
   }

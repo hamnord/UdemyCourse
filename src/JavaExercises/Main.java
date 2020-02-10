@@ -36,6 +36,7 @@ public class Main {
     // LastDigitChecker.isValid();
     // GreatestCommonDivisor.getGreatestCommonDivisor(25,15);
     // GreatestCommonDivisor.commonDivisorWhile(25,15);
-    AllFactors.printFactors(10);
+    // AllFactors.printFactors(28);
+    // PerfectNumber.isPerfectNumber(55);
   }
 }
