@@ -38,5 +38,6 @@ public class Main {
     // GreatestCommonDivisor.commonDivisorWhile(25,15);
     // AllFactors.printFactors(28);
     // PerfectNumber.isPerfectNumber(55);
+      NumberToWords.numberToWords(100);
   }
 }
