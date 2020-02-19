@@ -41,6 +41,7 @@ public class Main {
     // NumberToWords.numberToWords(100);
     // FlourPackProblem.canPack(1,0,6);
     // LargestPrime.getLargestPrime(217);
+    // DiagonalStar.printSquareStar(2);
 
   }
 }
