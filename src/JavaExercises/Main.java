@@ -42,6 +42,7 @@ public class Main {
     // FlourPackProblem.canPack(1,0,6);
     // LargestPrime.getLargestPrime(217);
     // DiagonalStar.printSquareStar(2);
+    ReadingUserInput.sumUserInput();
 
   }
 }
