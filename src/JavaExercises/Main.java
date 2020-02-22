@@ -44,6 +44,7 @@ public class Main {
     // DiagonalStar.printSquareStar(2);
     // ReadingUserInput.sumUserInput();
     // MinMaxInput.getMinMaxValue();
+    // InputCalc.inputThenPrintSumAndAverage();
 
   }
 }
