@@ -1,11 +1,16 @@
 package JavaExercises;
 
 import JavaExercises.Lesson2.*;
+import JavaExercises.Lesson3.Person;
+import JavaExercises.Lesson3.SimpleCalc;
 
 import java.awt.*;
 
 public class Main {
   public static void main(String[] args) {
+
+    /* Methods from Lesson 1 & 2 */
+
     // SpeedConverterExercise.printConversion(10);
     // MegabyteConverter.printMegaBytesAndKiloBytes(5000);
     // BarkingDogExercise.shouldWakeUp(true,-1);
@@ -48,6 +53,44 @@ public class Main {
     // MinMaxInput.getMinMaxValue();
     // InputCalc.inputThenPrintSumAndAverage();
     // PaintJob.getBucketCount(3.26, 0.75 );
+
+    /* Lesson 3
+     * SimpleCalc
+
+    SimpleCalc calc = new SimpleCalc();
+    calc.setFirstNumber(5.0);
+    calc.setSecondNumber(4);
+    System.out.println("Add = " + calc.getAdditionResult());
+    System.out.println("Subtract = " + calc.getSubtractionResult());
+    calc.setFirstNumber(5.25);
+    calc.setSecondNumber(0);
+    System.out.println("Multiply = " + calc.getMultiplicationResult());
+    System.out.println("Divide = " + calc.getDivisionResult());
+
+    /* Person
+
+    Person person = new Person();
+
+    person.setFirstName("");
+    person.setLastName("");
+    person.setAge(10);
+    System.out.println("FullName = " + person.getFullName());
+    System.out.println("Teen = " + person.isTeen());
+
+    person.setFirstName("John");
+    person.setAge(18);
+    System.out.println("FullName = " + person.getFullName());
+    System.out.println("Teen = " + person.isTeen());
+
+    person.setLastName("Smith");
+    System.out.println("FullName = " + person.getFullName());
+
+
+     */
+
+
+
+
 
   }
 }
