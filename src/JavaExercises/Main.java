@@ -2,6 +2,8 @@ package JavaExercises;
 
 import JavaExercises.Lesson2.*;
 
+import java.awt.*;
+
 public class Main {
   public static void main(String[] args) {
     // SpeedConverterExercise.printConversion(10);
@@ -45,6 +47,7 @@ public class Main {
     // ReadingUserInput.sumUserInput();
     // MinMaxInput.getMinMaxValue();
     // InputCalc.inputThenPrintSumAndAverage();
+    // PaintJob.getBucketCount(3.26, 0.75 );
 
   }
 }
