@@ -1,9 +1,7 @@
 package JavaExercises;
 
 import JavaExercises.Lesson2.*;
-import JavaExercises.Lesson3.BankAccount;
-import JavaExercises.Lesson3.Person;
-import JavaExercises.Lesson3.SimpleCalc;
+import JavaExercises.Lesson3.*;
 
 import java.awt.*;
 
@@ -112,6 +110,34 @@ public class Main {
 
      */
 
+    /* VipCustomer
+
+    VipCustomer vipDefault = new VipCustomer();
+    System.out.println("Name: " + vipDefault.getName() +
+        ", CreditLimit: " + vipDefault.getCreditLimit() +
+        ", mail: " + vipDefault.getEmail());
+
+    VipCustomer jocke = new VipCustomer("jocke", 100000);
+    System.out.println("Name: " + jocke.getName() +
+        ", CreditLimit: " + jocke.getCreditLimit() +
+        ", mail: " +  jocke.getEmail());
+
+    VipCustomer stephaaan = new VipCustomer("Stephaaan", 10, "DolphinHunter69@yahoo.org");
+    System.out.println("Name: " + stephaaan.getName() +
+        ", CreditLimit: " + stephaaan.getCreditLimit() +
+        ", mail: " + stephaaan.getEmail());
+
+     */
+
+    /* Wall-Challenge
+
+    Wall wall = new Wall(5,4);
+    System.out.println("Area = " + wall.getArea());
+
+    System.out.println("Width = " + wall.getWidth());
+    System.out.println("Height = " + wall.getHeight());
+
+     */
 
 
   }
