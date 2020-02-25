@@ -1,6 +1,7 @@
 package JavaExercises;
 
 import JavaExercises.Lesson2.*;
+import JavaExercises.Lesson3.BankAccount;
 import JavaExercises.Lesson3.Person;
 import JavaExercises.Lesson3.SimpleCalc;
 
@@ -85,10 +86,31 @@ public class Main {
     person.setLastName("Smith");
     System.out.println("FullName = " + person.getFullName());
 
-
      */
 
+    /* BankAccount
 
+    BankAccount defaultAccount = new BankAccount();
+
+    System.out.println("**********************");
+
+    BankAccount account = new BankAccount(
+        "123-324-562-7",
+        10000,
+        "Jocke Fiddesson",
+        "VonFidd@gmail.com",
+        "+732-42 41 15" );
+
+    account.printAccount();
+    account.depositFunds(500);
+    System.out.println("Current Balance after deposit: " + account.getBalance());
+
+    account.withdrawFunds(1500);
+    account.withdrawFunds(499);
+    System.out.println("Current Balance after withdrawal: " + account.getBalance());
+
+
+     */
 
 
 

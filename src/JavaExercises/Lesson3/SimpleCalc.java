@@ -7,6 +7,15 @@ public class SimpleCalc {
   private double firstNumber;
   private double secondNumber;
 
+  public double getDivisionResult () {
+    if (secondNumber == 0){
+      return 0;
+    }
+    else {
+      return firstNumber / secondNumber;
+    }
+  }
+
   public double getFirstNumber() {
     return firstNumber;
   }
@@ -33,13 +42,5 @@ public class SimpleCalc {
 
   public double getMultiplicationResult (){
     return firstNumber * secondNumber;
-  }
-  public double getDivisionResult () {
-    if (secondNumber == 0){
-      return 0;
-    }
-    else {
-      return firstNumber / secondNumber;
-    }
   }
 }
