@@ -2,6 +2,7 @@ package JavaExercises;
 
 import JavaExercises.Lesson2.*;
 import JavaExercises.Lesson3.*;
+import JavaExercises.Lesson3.Point;
 
 import java.awt.*;
 
@@ -139,6 +140,16 @@ public class Main {
 
      */
 
+    /* Point Challenge */
 
+
+    Point first = new Point(6,5);
+    Point second = new Point(3,1);
+    System.out.println("Distance()= " + first.distance());
+    System.out.println("Distance()= " + first.distance(second));
+    System.out.println("Distance()= " + first.distance(2,2));
+
+    Point point = new Point();
+    System.out.println("Distance()= " + point.distance());
   }
 }
