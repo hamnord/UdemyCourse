@@ -2,6 +2,9 @@ package JavaExercises;
 
 import JavaExercises.Lesson2.*;
 import JavaExercises.Lesson3.*;
+import JavaExercises.Lesson3.CarpetCostCalculator.Calculator;
+import JavaExercises.Lesson3.CarpetCostCalculator.Carpet;
+import JavaExercises.Lesson3.CarpetCostCalculator.Floor;
 import JavaExercises.Lesson3.Point;
 
 import java.awt.*;
@@ -140,7 +143,7 @@ public class Main {
 
      */
 
-    /* Point Challenge */
+    /* Point Challenge
 
 
     Point first = new Point(6,5);
@@ -151,5 +154,21 @@ public class Main {
 
     Point point = new Point();
     System.out.println("Distance()= " + point.distance());
+
+     */
+
+    /*  CarpetCostCalculator
+
+    Carpet carpet = new Carpet(3.5);
+    Floor floor = new Floor(2.75,4.0);
+    Calculator calc = new Calculator(floor,carpet);
+    System.out.println("Total: " + calc.getTotalCost());
+
+     carpet = new Carpet(1.5);
+     floor = new Floor(5.4,4.5);
+     calc = new Calculator(floor,carpet);
+    System.out.println("Total: " + calc.getTotalCost());
+
+     */
   }
 }
