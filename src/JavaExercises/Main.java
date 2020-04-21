@@ -5,6 +5,8 @@ import JavaExercises.Lesson3.*;
 import JavaExercises.Lesson3.CarpetCostCalculator.Calculator;
 import JavaExercises.Lesson3.CarpetCostCalculator.Carpet;
 import JavaExercises.Lesson3.CarpetCostCalculator.Floor;
+import JavaExercises.Lesson3.InheritanceChallengePart1.Car;
+import JavaExercises.Lesson3.InheritanceChallengePart1.RaceCar;
 import JavaExercises.Lesson3.Point;
 
 import java.awt.*;
@@ -186,6 +188,22 @@ public class Main {
     System.out.println("one.Imaginary = " + number.getImaginary());
 
      */
+
+    /*
+    RaceCar f1Car = new RaceCar();
+    Car volvo = new Car();
+
+    f1Car.setSteering("forward");
+    f1Car.setSpeed(250);
+    System.out.println("A " + f1Car.getColor() + " " + f1Car.getModel() + " going " + f1Car.getSteering() + " in a speed of " + f1Car.getSpeed() + "/mph");
+
+    volvo.setColor("Green");
+    volvo.setModel("240 volvo");
+    volvo.setSpeed(1000);
+    System.out.println("A " + volvo.getColor() + " " + volvo.getModel() + " Going in speed of " + volvo.getSpeed() + "/mph");
+
+     */
+
 
   }
 }
