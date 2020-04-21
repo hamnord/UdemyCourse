@@ -10,6 +10,7 @@ import JavaExercises.Lesson3.CylinderChallenge.Cylinder;
 import JavaExercises.Lesson3.InheritanceChallengePart1.Car;
 import JavaExercises.Lesson3.InheritanceChallengePart1.RaceCar;
 import JavaExercises.Lesson3.Point;
+import JavaExercises.Lesson3.PoolAreaChallenge.Cuboid;
 
 import java.awt.*;
 
@@ -206,6 +207,7 @@ public class Main {
 
      */
 
+    /*
     Circle circle = new Circle(3.75);
     System.out.println("circle.Radius = " + circle.getRadius());
     System.out.println("circle.Area = " + circle.getArea());
@@ -216,5 +218,20 @@ public class Main {
     System.out.println("cylinder.Area = " + cylinder.getArea());
     System.out.println("cylinder.Volume = " + cylinder.getVolume());
 
+     */
+
+    /*
+    Rectangle rectangle = new Rectangle(5,5);
+    System.out.println("rectangle.w = " + rectangle.getWidth());
+    System.out.println("rectangle.l = " + rectangle.getLength());
+    System.out.println("rectangle.area = " + rectangle.getArea());
+
+    Cuboid cuboid = new Cuboid(5,10,5);
+    System.out.println("cuboid.w");
+    System.out.println("cuboid.l");
+    System.out.println("cuboid.h");
+    System.out.println("cuboid.volume");
+
+     */
   }
 }
