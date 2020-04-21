@@ -5,6 +5,8 @@ import JavaExercises.Lesson3.*;
 import JavaExercises.Lesson3.CarpetCostCalculator.Calculator;
 import JavaExercises.Lesson3.CarpetCostCalculator.Carpet;
 import JavaExercises.Lesson3.CarpetCostCalculator.Floor;
+import JavaExercises.Lesson3.CylinderChallenge.Circle;
+import JavaExercises.Lesson3.CylinderChallenge.Cylinder;
 import JavaExercises.Lesson3.InheritanceChallengePart1.Car;
 import JavaExercises.Lesson3.InheritanceChallengePart1.RaceCar;
 import JavaExercises.Lesson3.Point;
@@ -204,6 +206,15 @@ public class Main {
 
      */
 
+    Circle circle = new Circle(3.75);
+    System.out.println("circle.Radius = " + circle.getRadius());
+    System.out.println("circle.Area = " + circle.getArea());
+
+    Cylinder cylinder = new Cylinder(5.55, 7.25);
+    System.out.println("cylinder.Radius = " + cylinder.getRadius());
+    System.out.println("cylinder.Height = " + cylinder.getHeight());
+    System.out.println("cylinder.Area = " + cylinder.getArea());
+    System.out.println("cylinder.Volume = " + cylinder.getVolume());
 
   }
 }
