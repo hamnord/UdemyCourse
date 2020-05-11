@@ -11,6 +11,9 @@ import JavaExercises.Lesson3.InheritanceChallengePart1.Car;
 import JavaExercises.Lesson3.InheritanceChallengePart1.RaceCar;
 import JavaExercises.Lesson3.Point;
 import JavaExercises.Lesson3.PoolAreaChallenge.Cuboid;
+import JavaExercises.Lesson4.RoomChallenge.Furniture;
+import JavaExercises.Lesson4.RoomChallenge.Room;
+import JavaExercises.Lesson4.RoomChallenge.Walls;
 
 import java.awt.*;
 
@@ -233,5 +236,14 @@ public class Main {
     System.out.println("cuboid.volume");
 
      */
+
+    Furniture furniture = new Furniture("black leather Sofa", "60inch flatScreen", "marble table");
+    Walls walls = new Walls("white",1,1);
+    Room livingroom = new Room(walls,furniture);
+
+
+    livingroom.isTheDoorOpen();
+    livingroom.getWalls().openDoor();
+    livingroom.isTheDoorOpen();
   }
 }
