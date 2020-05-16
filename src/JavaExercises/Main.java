@@ -237,6 +237,8 @@ public class Main {
 
      */
 
+    /*
+
     Furniture furniture = new Furniture("black leather Sofa", "60inch flatScreen", "marble table");
     Walls walls = new Walls("white",1,1);
     Room livingroom = new Room(walls,furniture);
@@ -245,5 +247,7 @@ public class Main {
     livingroom.isTheDoorOpen();
     livingroom.getWalls().openDoor();
     livingroom.isTheDoorOpen();
+
+     */
   }
 }
