@@ -1,21 +1,8 @@
 package JavaExercises;
 
-import JavaExercises.Lesson2.*;
-import JavaExercises.Lesson3.*;
-import JavaExercises.Lesson3.CarpetCostCalculator.Calculator;
-import JavaExercises.Lesson3.CarpetCostCalculator.Carpet;
-import JavaExercises.Lesson3.CarpetCostCalculator.Floor;
-import JavaExercises.Lesson3.CylinderChallenge.Circle;
-import JavaExercises.Lesson3.CylinderChallenge.Cylinder;
-import JavaExercises.Lesson3.InheritanceChallengePart1.Car;
-import JavaExercises.Lesson3.InheritanceChallengePart1.RaceCar;
-import JavaExercises.Lesson3.Point;
-import JavaExercises.Lesson3.PoolAreaChallenge.Cuboid;
-import JavaExercises.Lesson4.RoomChallenge.Furniture;
-import JavaExercises.Lesson4.RoomChallenge.Room;
-import JavaExercises.Lesson4.RoomChallenge.Walls;
-
-import java.awt.*;
+import JavaExercises.Lesson4.EncapsulationExercise.EnhancedPlayer;
+import JavaExercises.Lesson4.EncapsulationExercise.Player;
+import JavaExercises.Lesson4.PrinterChallenge.Printer;
 
 public class Main {
   public static void main(String[] args) {
@@ -249,5 +236,32 @@ public class Main {
     livingroom.isTheDoorOpen();
 
      */
+
+    /*
+    Player player = new Player();
+    player.fullName = "FittJocke";
+    player.health = 100;
+    player.weapon = "Sword";
+
+    int damage = 10;
+    player.loseHealth(damage);
+    System.out.println("Remaining health = " + player.healthRemaining());
+
+    damage = 90;
+    player.health = 200;
+    player.loseHealth(damage);
+    System.out.println("Remaining health = " + player.healthRemaining());
+
+    EnhancedPlayer player1 = new EnhancedPlayer("KukJocke", 100, "Mace");
+    System.out.println( player1.getName() + " Health:" + player1.getHealth());
+
+     */
+
+    Printer printer = new Printer(50, 10,true);
+
+    printer.fillTonerBlack(50);
+    printer.fillTonerRGB(50);
+    printer.printPages(100);
+
   }
 }
