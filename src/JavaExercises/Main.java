@@ -4,6 +4,61 @@ import JavaExercises.Lesson4.EncapsulationExercise.EnhancedPlayer;
 import JavaExercises.Lesson4.EncapsulationExercise.Player;
 import JavaExercises.Lesson4.PrinterChallenge.Printer;
 
+
+// PolymorphismChallenge
+
+class Car{
+
+  private boolean engine;
+  private int cylinder;
+  private int wheels;
+  private String name;
+
+  public Car(String name, int cylinder){
+    this.engine = true;
+    this.cylinder = cylinder;
+    this.wheels = 4;
+    this.name = name;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void startEngine(){
+    System.out.println("engine has been turned on");
+  }
+
+  public void accelerate(){
+    System.out.println("car is going forward");
+  }
+
+  public void brake(){
+    System.out.println("car is slowing down");
+  }
+}
+
+class Audi extends Car{
+
+  public Audi(){
+    super("Audi",8);
+  }
+
+  public void startEngine(){
+    System.out.println("That Audi engine is roaring");
+  }
+
+  public void accelerate(){
+    System.out.println("VRRrroOOooM");
+  }
+
+  public void brake(){
+    System.out.println("");
+  }
+}
+
+
+
 public class Main {
   public static void main(String[] args) {
 
@@ -257,11 +312,19 @@ public class Main {
 
      */
 
+    /*
+
     Printer printer = new Printer(50, 10,true);
 
     printer.fillTonerBlack(50);
     printer.fillTonerRGB(50);
     printer.printPages(100);
+
+
+     */
+
+
+
 
   }
 }
