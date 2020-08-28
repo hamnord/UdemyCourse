@@ -7,6 +7,7 @@ import JavaExercises.Lesson4.PrinterChallenge.Printer;
 
 // PolymorphismChallenge
 
+/*
 class Car{
 
   private boolean engine;
@@ -25,39 +26,82 @@ class Car{
     return name;
   }
 
-  public void startEngine(){
-    System.out.println("engine has been turned on");
+  public int getCylinder() {
+    return cylinder;
   }
 
-  public void accelerate(){
-    System.out.println("car is going forward");
+  public String startEngine(){
+    return "engine has been turned on";
   }
-
-  public void brake(){
-    System.out.println("car is slowing down");
+  public String accelerate(){
+    return "car is going forward";
+  }
+  public String brake(){
+    return "car is slowing down";
   }
 }
 
 class Audi extends Car{
 
-  public Audi(){
-    super("Audi",8);
+  public Audi(String name, int cylinder){
+    super(name, cylinder);
   }
 
-  public void startEngine(){
-    System.out.println("That Audi engine is roaring");
+  @Override
+  public String startEngine(){
+    return "That Audi engine is roaring";
+  }
+  @Override
+  public String accelerate(){
+    return "VRRrroOOooM";
+  }
+  @Override
+  public String brake(){
+    return "skrrt skrrt";
+  }
+}
+
+class Volvo extends Car{
+  public Volvo(String name, int cylinder){
+    super(name,cylinder);
+  }
+@Override
+  public String startEngine(){
+    return "brumbrum, volvo activated";
+  }
+  @Override
+  public String accelerate(){
+    return "MeeeEEEEeeeh";
+  }
+  @Override
+  public String brake(){
+    return "....volvo stopped";
+  }
+}
+
+class RangeRover extends Car{
+  public RangeRover(String name, int cylinder){
+    super(name,cylinder);
   }
 
-  public void accelerate(){
-    System.out.println("VRRrroOOooM");
-  }
 
-  public void brake(){
-    System.out.println("");
+
+  @Override
+  public String startEngine(){
+    return "RR wow so much class";
+  }
+  @Override
+  public String accelerate(){
+    return "wow so much comfort";
+  }
+  @Override
+  public String brake(){
+    return "wow so much brake";
   }
 }
 
 
+ */
 
 public class Main {
   public static void main(String[] args) {
@@ -323,8 +367,29 @@ public class Main {
 
      */
 
+    /*
 
+Car car = new Car("generic car",4);
+    System.out.println(car.startEngine() + "\n" +
+        car.accelerate() + "\n" +
+        car.brake());
 
+    Audi audi =new Audi("Rs6",12);
+    System.out.println(audi.startEngine() + "\n" +
+        audi.accelerate() + "\n" +
+        audi.brake());
 
+    Volvo volvo = new Volvo("xc60",8);
+    System.out.println(volvo.startEngine() + "\n" +
+        volvo.accelerate() + "\n" +
+        volvo.brake());
+
+    RangeRover range = new RangeRover("evoque",8);
+    System.out.println(range.startEngine() + "\n" +
+        range.accelerate() + "\n" +
+        range.brake());
+
+     */
   }
+
 }
